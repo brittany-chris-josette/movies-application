@@ -1,4 +1,7 @@
 // =================START OF CARD GENERATION FUNCTION==============
+
+
+
 function writeMovies(movies) {
     for (let i = 0; i < movies.length; i++) {
         let table = "<tr>";
@@ -47,9 +50,8 @@ $("#submit").click(function () {
     $("#moviesLayout").append(table);
 });
 
-// $("#delete").click(function(){
-//     console.log($(this));
-// });
+
+});
 // $("#moviesLayout").delegate('.delete', 'click', function() {
 //     let $td = $(this).closest('td');
 //
@@ -61,7 +63,6 @@ $("#submit").click(function () {
 //         }
 //     })
 // });
-
 
 
 

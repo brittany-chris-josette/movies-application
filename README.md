@@ -5,7 +5,8 @@ will allow users to add, edit, and delete movies, as well as rate them. We will
 be using [`json-server`](https://github.com/typicode/json-server) to mock a
 database and our backend, so that we can just worry about the front end and AJAX
 requests.
-
+npm
+non
 The webpack dev server is configured to watch for changes both in the javascript
 source, as well as the `public` directory. Whenever changes are detected, the
 page will be reloaded. It will also proxy any requests that start with `/api` to
